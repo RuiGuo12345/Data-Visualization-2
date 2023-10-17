@@ -3,7 +3,7 @@ vegaEmbed('#gragh1', vg1).then(function(result) {
   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
 
-var vg2 = "js/FIT3179_w10_hw.vg.json";
+var vg2 = "js/G2.json";
 vegaEmbed('#graph2', vg2).then(function(result) {
   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
